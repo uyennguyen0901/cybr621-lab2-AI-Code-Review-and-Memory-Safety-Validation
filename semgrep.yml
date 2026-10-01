@@ -1,0 +1,16 @@
+rules:
+  - id: c-potentially-dangerous-localtime
+    languages: [c]
+    message: Review localtime(); it returns a pointer to shared static storage.
+    severity: WARNING
+    pattern: localtime(...)
+
+  - id: c-unsafe-string-function
+    languages: [c]
+    message: Review this unbounded C string function.
+    severity: ERROR
+    pattern-either:
+      - pattern: strcpy(...)
+      - pattern: strcat(...)
+      - pattern: sprintf(...)
+      - pattern: gets(...)

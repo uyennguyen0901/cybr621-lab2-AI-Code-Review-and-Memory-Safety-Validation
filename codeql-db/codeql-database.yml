@@ -1,0 +1,13 @@
+---
+sourceLocationPrefix: /workspaces/cybr621-lab2-AI-Code-Review-and-Memory-Safety-Validation
+baselineLinesOfCode: 271
+unicodeNewlines: false
+columnKind: utf8
+primaryLanguage: cpp
+creationMetadata:
+  sha: ee469796e20e561bf9b0a2796a4061bdf895d742
+  cliVersion: 2.27.1
+  creationTime: 2026-10-01T15:29:53.858302524Z
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: true

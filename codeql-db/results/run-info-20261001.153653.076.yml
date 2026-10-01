@@ -1,0 +1,688 @@
+---
+queries: []
+extensionPacks: []
+packs:
+  codeql/util#2:
+    name: codeql/util
+    version: 2.0.45
+    isLibrary: true
+    isExtensionPack: false
+    localPath: file:///home/codespace/.codeql/packages/codeql/cpp-queries/1.9.0/.codeql/libraries/codeql/util/2.0.45/
+    localPackDefinitionFile: file:///home/codespace/.codeql/packages/codeql/cpp-queries/1.9.0/.codeql/libraries/codeql/util/2.0.45/qlpack.yml
+    headSha: 6e9f9e38390175c41b99070a423c875f450759ca
+    runDataExtensions: []
+  codeql/cpp-all#1:
+    name: codeql/cpp-all
+    version: 12.1.1
+    isLibrary: true
+    isExtensionPack: false
+    localPath: file:///home/codespace/.codeql/packages/codeql/cpp-queries/1.9.0/.codeql/libraries/codeql/cpp-all/12.1.1/
+    localPackDefinitionFile: file:///home/codespace/.codeql/packages/codeql/cpp-queries/1.9.0/.codeql/libraries/codeql/cpp-all/12.1.1/qlpack.yml
+    headSha: 6e9f9e38390175c41b99070a423c875f450759ca
+    runDataExtensions: []
+  codeql/cpp-queries#0:
+    name: codeql/cpp-queries
+    version: 1.9.0
+    isLibrary: false
+    isExtensionPack: false
+    localPath: file:///home/codespace/.codeql/packages/codeql/cpp-queries/1.9.0/
+    localPackDefinitionFile: file:///home/codespace/.codeql/packages/codeql/cpp-queries/1.9.0/qlpack.yml
+    headSha: 6e9f9e38390175c41b99070a423c875f450759ca
+    runDataExtensions:
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/Boost.Asio.model.yml
+      index: 0
+      firstRowId: 0
+      rowCount: 6
+      locations:
+        lineNumbers: A=7+1*5
+        columnNumbers: A=9*6
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/Boost.Asio.model.yml
+      index: 1
+      firstRowId: 6
+      rowCount: 4
+      locations:
+        lineNumbers: A=17+1*3
+        columnNumbers: A=9*4
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/Boost.Asio.model.yml
+      index: 2
+      firstRowId: 10
+      rowCount: 17
+      locations:
+        lineNumbers: A=25+1*16
+        columnNumbers: A=9*17
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CA2CAEX.model.yml
+      index: 0
+      firstRowId: 27
+      rowCount: 13
+      locations:
+        lineNumbers: A=6+1*12
+        columnNumbers: A=9*13
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CAtlArray.model.yml
+      index: 0
+      firstRowId: 40
+      rowCount: 10
+      locations:
+        lineNumbers: A=6+1*9
+        columnNumbers: A=9*10
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CAtlFile.model.yml
+      index: 0
+      firstRowId: 50
+      rowCount: 4
+      locations:
+        lineNumbers: A=6+1*3
+        columnNumbers: A=9*4
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CAtlFileMappingBase.model.yml
+      index: 0
+      firstRowId: 54
+      rowCount: 9
+      locations:
+        lineNumbers: A=6+1*8
+        columnNumbers: A=9*9
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CAtlList.model.yml
+      index: 0
+      firstRowId: 63
+      rowCount: 10
+      locations:
+        lineNumbers: A=6+1*9
+        columnNumbers: A=9*10
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CAtlTemporaryFile.model.yml
+      index: 0
+      firstRowId: 73
+      rowCount: 3
+      locations:
+        lineNumbers: A=6+1*2
+        columnNumbers: A=9*3
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CComBSTR.model.yml
+      index: 0
+      firstRowId: 76
+      rowCount: 28
+      locations:
+        lineNumbers: A=6+1*27
+        columnNumbers: A=9*28
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CComSafeArray.model.yml
+      index: 0
+      firstRowId: 104
+      rowCount: 21
+      locations:
+        lineNumbers: A=6+1*20
+        columnNumbers: A=9*21
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CPathT.model.yml
+      index: 0
+      firstRowId: 125
+      rowCount: 15
+      locations:
+        lineNumbers: A=6+1*10+4+1*3
+        columnNumbers: A=9*15
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CRegKey.model.yml
+      index: 0
+      firstRowId: 140
+      rowCount: 15
+      locations:
+        lineNumbers: A=6+1*14
+        columnNumbers: A=9*15
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CSimpleArray.model.yml
+      index: 0
+      firstRowId: 155
+      rowCount: 7
+      locations:
+        lineNumbers: A=6+1*6
+        columnNumbers: A=9*7
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CSimpleMap.model.yml
+      index: 0
+      firstRowId: 162
+      rowCount: 8
+      locations:
+        lineNumbers: A=6+1*7
+        columnNumbers: A=9*8
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CSimpleStringT.model.yml
+      index: 0
+      firstRowId: 170
+      rowCount: 37
+      locations:
+        lineNumbers: A=6+1*36
+        columnNumbers: A=9*37
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CStrBufT.model.yml
+      index: 0
+      firstRowId: 207
+      rowCount: 3
+      locations:
+        lineNumbers: A=6+1*2
+        columnNumbers: A=9*3
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CStringData.model.yml
+      index: 0
+      firstRowId: 210
+      rowCount: 1
+      locations:
+        lineNumbers: A=6
+        columnNumbers: A=9
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CStringT.model.yml
+      index: 0
+      firstRowId: 211
+      rowCount: 113
+      locations:
+        lineNumbers: A=6+1*112
+        columnNumbers: A=9*113
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/CUrl.model.yml
+      index: 0
+      firstRowId: 324
+      rowCount: 17
+      locations:
+        lineNumbers: A=6+1*16
+        columnNumbers: A=9*17
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/ComPtr.model.yml
+      index: 0
+      firstRowId: 341
+      rowCount: 26
+      locations:
+        lineNumbers: A=6+1*25
+        columnNumbers: A=9*26
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/ComPtrRef.model.yml
+      index: 0
+      firstRowId: 367
+      rowCount: 5
+      locations:
+        lineNumbers: A=6+1+2*2+1
+        columnNumbers: A=9*5
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/MySql.model.yml
+      index: 0
+      firstRowId: 372
+      rowCount: 2
+      locations:
+        lineNumbers: A=7+1
+        columnNumbers: A=9*2
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/MySql.model.yml
+      index: 1
+      firstRowId: 374
+      rowCount: 2
+      locations:
+        lineNumbers: A=13+1
+        columnNumbers: A=9*2
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/Oracle.oci.model.yml
+      index: 0
+      firstRowId: 376
+      rowCount: 2
+      locations:
+        lineNumbers: A=7+1
+        columnNumbers: A=9*2
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/Postgres.model.yml
+      index: 0
+      firstRowId: 378
+      rowCount: 6
+      locations:
+        lineNumbers: A=11+1*5
+        columnNumbers: A=9*6
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/Protobuf.model.yml
+      index: 0
+      firstRowId: 384
+      rowCount: 46
+      locations:
+        lineNumbers: A=10+1*25+3+1*15+3+1*3
+        columnNumbers: A=9*46
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/Strsafe.model.yml
+      index: 0
+      firstRowId: 430
+      rowCount: 8
+      locations:
+        lineNumbers: A=8+1+2+1+2+1+2+1
+        columnNumbers: A=9*8
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/Strsafe.model.yml
+      index: 1
+      firstRowId: 438
+      rowCount: 48
+      locations:
+        lineNumbers: A=24+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1+2+1
+        columnNumbers: A=9*48
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/Windows.model.yml
+      index: 0
+      firstRowId: 486
+      rowCount: 35
+      locations:
+        lineNumbers: A=8+1*5+2+1+2+1*6+2*2+1*8+2+1*5+2*2+1*2
+        columnNumbers: A=9*35
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/Windows.model.yml
+      index: 1
+      firstRowId: 521
+      rowCount: 23
+      locations:
+        lineNumbers: A=55+1+2*2+1*2+2+1*6+2*3+1*7
+        columnNumbers: A=9*23
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/ZMQ.model.yml
+      index: 0
+      firstRowId: 544
+      rowCount: 3
+      locations:
+        lineNumbers: A=7+1*2
+        columnNumbers: A=9*3
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/ZMQ.model.yml
+      index: 1
+      firstRowId: 547
+      rowCount: 3
+      locations:
+        lineNumbers: A=14+1*2
+        columnNumbers: A=9*3
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/ZMQ.model.yml
+      index: 2
+      firstRowId: 550
+      rowCount: 2
+      locations:
+        lineNumbers: A=21+1
+        columnNumbers: A=9*2
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/allocation/Bsd.allocation.model.yml
+      index: 0
+      firstRowId: 552
+      rowCount: 2
+      locations:
+        lineNumbers: A=6+1
+        columnNumbers: A=9*2
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/allocation/Glibc.allocation.model.yml
+      index: 0
+      firstRowId: 554
+      rowCount: 2
+      locations:
+        lineNumbers: A=6+1
+        columnNumbers: A=9*2
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/allocation/OpenSSL.allocation.model.yml
+      index: 0
+      firstRowId: 556
+      rowCount: 4
+      locations:
+        lineNumbers: A=6+1*3
+        columnNumbers: A=9*4
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/allocation/Std.allocation.model.yml
+      index: 0
+      firstRowId: 560
+      rowCount: 13
+      locations:
+        lineNumbers: A=6+1*12
+        columnNumbers: A=9*13
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/allocation/Windows.allocation.model.yml
+      index: 0
+      firstRowId: 573
+      rowCount: 24
+      locations:
+        lineNumbers: A=6+1*23
+        columnNumbers: A=9*24
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/azure.core.model.yml
+      index: 0
+      firstRowId: 597
+      rowCount: 6
+      locations:
+        lineNumbers: A=6+1*5
+        columnNumbers: A=9*6
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/azure.core.model.yml
+      index: 1
+      firstRowId: 603
+      rowCount: 25
+      locations:
+        lineNumbers: A=17+1*24
+        columnNumbers: A=9*25
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/bdlbb.model.yml
+      index: 0
+      firstRowId: 628
+      rowCount: 8
+      locations:
+        lineNumbers: A=9+1*2+2+1*2+2+1
+        columnNumbers: A=9*8
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/bsl.array.model.yml
+      index: 0
+      firstRowId: 636
+      rowCount: 9
+      locations:
+        lineNumbers: A=6+1*8
+        columnNumbers: A=9*9
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/bsl.deque.model.yml
+      index: 0
+      firstRowId: 645
+      rowCount: 69
+      locations:
+        lineNumbers: A=6+1*68
+        columnNumbers: A=9*69
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/bsl.forward_list.model.yml
+      index: 0
+      firstRowId: 714
+      rowCount: 52
+      locations:
+        lineNumbers: A=6+1*51
+        columnNumbers: A=9*52
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/bsl.list.model.yml
+      index: 0
+      firstRowId: 766
+      rowCount: 67
+      locations:
+        lineNumbers: A=6+1*66
+        columnNumbers: A=9*67
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/bsl.vector.model.yml
+      index: 0
+      firstRowId: 833
+      rowCount: 56
+      locations:
+        lineNumbers: A=6+1*55
+        columnNumbers: A=9*56
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/cctype.model.yml
+      index: 0
+      firstRowId: 889
+      rowCount: 4
+      locations:
+        lineNumbers: A=6+1*3
+        columnNumbers: A=9*4
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/deallocation/Bsd.deallocation.model.yml
+      index: 0
+      firstRowId: 893
+      rowCount: 3
+      locations:
+        lineNumbers: A=6+1*2
+        columnNumbers: A=9*3
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/deallocation/Std.deallocation.model.yml
+      index: 0
+      firstRowId: 896
+      rowCount: 37
+      locations:
+        lineNumbers: A=6+1*36
+        columnNumbers: A=9*37
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/deallocation/Windows.deallocation.model.yml
+      index: 0
+      firstRowId: 933
+      rowCount: 36
+      locations:
+        lineNumbers: A=6+1*35
+        columnNumbers: A=9*36
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/generated/modelgenerator/brotli/brotli.model.yml
+      index: 0
+      firstRowId: 969
+      rowCount: 474
+      locations:
+        lineNumbers: A=7+1*473
+        columnNumbers: A=9*474
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/generated/modelgenerator/curl/curl.model.yml
+      index: 0
+      firstRowId: 1443
+      rowCount: 953
+      locations:
+        lineNumbers: A=7+1*952
+        columnNumbers: A=9*953
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/generated/modelgenerator/glibc/glibc.model.yml
+      index: 0
+      firstRowId: 2396
+      rowCount: 5488
+      locations:
+        lineNumbers: A=7+1*5487
+        columnNumbers: A=9*5488
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/generated/modelgenerator/libidn2/libidn2.model.yml
+      index: 0
+      firstRowId: 7884
+      rowCount: 142
+      locations:
+        lineNumbers: A=7+1*141
+        columnNumbers: A=9*142
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/generated/modelgenerator/libssh2/libssh2.model.yml
+      index: 0
+      firstRowId: 8026
+      rowCount: 511
+      locations:
+        lineNumbers: A=7+1*510
+        columnNumbers: A=9*511
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/generated/modelgenerator/libuv/libuv.model.yml
+      index: 0
+      firstRowId: 8537
+      rowCount: 640
+      locations:
+        lineNumbers: A=7+1*639
+        columnNumbers: A=9*640
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/generated/modelgenerator/nghttp2/nghttp2.model.yml
+      index: 0
+      firstRowId: 9177
+      rowCount: 565
+      locations:
+        lineNumbers: A=7+1*564
+        columnNumbers: A=9*565
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/generated/modelgenerator/openssl/openssl.model.yml
+      index: 0
+      firstRowId: 9742
+      rowCount: 21578
+      locations:
+        lineNumbers: A=7+1*21577
+        columnNumbers: A=9*21578
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/generated/modelgenerator/sqlite/sqlite.model.yml
+      index: 0
+      firstRowId: 31320
+      rowCount: 942
+      locations:
+        lineNumbers: A=7+1*941
+        columnNumbers: A=9*942
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/generated/modelgenerator/zlib/zlib.model.yml
+      index: 0
+      firstRowId: 32262
+      rowCount: 162
+      locations:
+        lineNumbers: A=7+1*161
+        columnNumbers: A=9*162
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/getc.model.yml
+      index: 0
+      firstRowId: 32424
+      rowCount: 13
+      locations:
+        lineNumbers: A=7+1*12
+        columnNumbers: A=9*13
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/iconv.model.yml
+      index: 0
+      firstRowId: 32437
+      rowCount: 1
+      locations:
+        lineNumbers: A=6
+        columnNumbers: A=9
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/oleauto.model.yml
+      index: 0
+      firstRowId: 32438
+      rowCount: 3
+      locations:
+        lineNumbers: A=6+1*2
+        columnNumbers: A=9*3
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/pthread.model.yml
+      index: 0
+      firstRowId: 32441
+      rowCount: 1
+      locations:
+        lineNumbers: A=6
+        columnNumbers: A=9
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/std.array.model.yml
+      index: 0
+      firstRowId: 32442
+      rowCount: 9
+      locations:
+        lineNumbers: A=6+1*8
+        columnNumbers: A=9*9
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/std.deque.model.yml
+      index: 0
+      firstRowId: 32451
+      rowCount: 69
+      locations:
+        lineNumbers: A=6+1*68
+        columnNumbers: A=9*69
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/std.format.model.yml
+      index: 0
+      firstRowId: 32520
+      rowCount: 9
+      locations:
+        lineNumbers: A=6+1*8
+        columnNumbers: A=9*9
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/std.forward_list.model.yml
+      index: 0
+      firstRowId: 32529
+      rowCount: 52
+      locations:
+        lineNumbers: A=6+1*51
+        columnNumbers: A=9*52
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/std.iterator.model.yml
+      index: 0
+      firstRowId: 32581
+      rowCount: 6
+      locations:
+        lineNumbers: A=6+1*5
+        columnNumbers: A=9*6
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/std.list.model.yml
+      index: 0
+      firstRowId: 32587
+      rowCount: 67
+      locations:
+        lineNumbers: A=6+1*66
+        columnNumbers: A=9*67
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/std.thread.model.yml
+      index: 0
+      firstRowId: 32654
+      rowCount: 5
+      locations:
+        lineNumbers: A=6+1*4
+        columnNumbers: A=9*5
+     -
+      pack: codeql/cpp-all#1
+      relativePath: ext/std.vector.model.yml
+      index: 0
+      firstRowId: 32659
+      rowCount: 56
+      locations:
+        lineNumbers: A=6+1*55
+        columnNumbers: A=9*56
